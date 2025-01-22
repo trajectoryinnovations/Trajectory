@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  app:
+    image:
+    ports:
+      - '3000:3000'
+    env_file:
+      - .env # Mount the environment file
+#
+#    NEXTAUTH_SECRET=_secret
+#    NEXTAUTH_URL=http://localhost:3000
+#    GEMINI_API_KEY=AIzaSyBeWtMKKuYKGnPKPWuGkXP0qqzeYfGiTL0
+#    EMAIL_SERVER_HOST=smtp.hostinger.com
+#    EMAIL_SERVER_PORT=587
+#    EMAIL_SERVER_USER=business@trajectoryinnovations.com
+#    EMAIL_SERVER_PASSWORD=TrajectoryANA@2024
